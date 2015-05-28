@@ -58,4 +58,17 @@ alert("You don't see your rescuers anywhere, or anyone at all!")
 alert("You notice the town")
 alert("You wonder if getting help from the town will be smart or looking for them here.")
 Answer = prompt("Do you search for them?")
+if (Answer === "Yes") {
+    alert("You start off towards the cellar.");
+alert("You look everywhere for hours");
+alert("You then hear yelling near the cellar.");
+alert("You open the cellar to find your rescuers.");
+alert("After helping them, they ask you to stay and help with the farm permanently");
+alert("You accept happily.");
+alert("GAME OVER. YOU WIN!");
+} else {
+alert("You run towards the town on your way to get help.");
+alert("You slip and fall into a ravine");
+alert("GAME OVER. YOU LOSE!");
+}
 }
