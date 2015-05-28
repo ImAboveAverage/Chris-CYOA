@@ -1,0 +1,61 @@
+alert ("Welcome to Chris' NEW Choose your own adventure")
+alert ("You will be asked questions that control your fate")
+alert ("You will be required to answer 'Yes' or 'No' unless said differently")
+confirm("Are you ready to begin?")
+alert("You wake up in a grassy plain. You don't know where you are. You don't really remember anything.")
+alert("To your left you see a town, to your right you see a group of people working in a farm.")
+Answer = prompt("Do you go left or right?")
+if (Answer === "left") {
+    console.log("Left");
+alert("You start to head towards the town.");
+alert("Around halfway there, you stumble on a large sword.");
+Answer = prompt("Do you pick it up?");
+if (Answer === "yes") {
+   alert("You pick up the sword")
+alert("It's glowing sheathed in your belt, but you ignore it.")
+alert("After an hour, you reach the town, a storm seems to be coming")
+alert("You start to look for shelter.")
+alert("You can't find any, so you just try to fall asleep on a nearby bench")
+alert("You are roused 2 hours later by a tall man.")
+alert("He says to wake up because a tornado is coming!")
+alert("You glance behind him to see a cart with people inside of it")
+alert("On the side of the cart is a sign, it reads 'Free Rides to Williamsville due to tornado'")
+Answer = prompt("Do you follow the man to his house or take the cart? cart for Cart and Follow to follow the man to his house.");
+
+} else {
+    alert("You ignore the sword and keep going")
+alert("After an hour, you reach the town, a storm seems to be coming")
+alert("You start to look for shelter.")
+alert("You can't find any, so you just try to fall asleep on a nearby bench")
+alert("You are roused 2 hours later by a tall man.")
+alert("He says to wake up because a tornado is coming!")
+alert("You glance behind him to see a cart with people inside of it")
+alert("On the side of the cart is a sign, it reads 'Free Rides to Williamsville due to tornado'")
+Answer = prompt("Do you follow the man to his house or take the cart? cart for Cart and Follow to follow the man to his house.");
+}
+
+} else
+    console.log("Right");
+alert("You run towards the people yelling.")
+alert("You fall, hurting your leg")
+alert("You grab there attention and before you know it, you are in a comfortable bed eating delicious eggs.")
+alert("They think you are quite strange")
+alert("The next day, you wake up to screaming and the picture of a tornado outside your window!")
+alert("You try to get up but your legs seems broken")
+Answer = prompt("What do you do? Get up and head to the cellar for saftey and risk worsening your leg or stay in bed and hope for the best? (cellar for Cellar and stay for Stay)")
+if (Answer === "cellar") {
+    alert("You start off towards the cellar.")
+alert("You make it to the cellar and see the people who rescued you.")
+alert("You see them blocking the door and getting supplies")
+Answer = prompt("Do you help them?")
+} else {
+    alert("You stay in bed")
+alert("You stay in bed, hoping it will pass")
+alert("You fall asleep")
+alert("You wake up on the floor, bruised.")
+alert("You walk outside to see the damage, you narrowly missed it.")
+alert("You don't see your rescuers anywhere, or anyone at all!")
+alert("You notice the town")
+alert("You wonder if getting help from the town will be smart or looking for them here.")
+Answer = prompt("Do you search for them?")
+}
