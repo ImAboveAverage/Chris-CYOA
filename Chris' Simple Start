@@ -5,7 +5,8 @@ confirm("Are you ready to begin?")
 alert("You wake up in a grassy plain. You don't know where you are. You don't really remember anything.")
 alert("To your left you see a town, to your right you see a group of people working in a farm.")
 Answer = prompt("Do you go left or right?")
-if(Answer === "Left")
-console.log("Left")
-else
-console.log("Right")
+if (Answer === "left") {
+    console.log("Left");
+} else {
+    console.log("Right");
+}
