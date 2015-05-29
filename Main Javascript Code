@@ -13,14 +13,12 @@ Answer = prompt("Do you pick it up?");
 if (Answer === "yes") {
    alert("You pick up the sword")
 alert("It's glowing sheathed in your belt, but you ignore it.")
-alert("After an hour, you reach the town, a storm seems to be coming")
-alert("You start to look for shelter.")
-alert("You can't find any, so you just try to fall asleep on a nearby bench")
-alert("You are roused 2 hours later by a tall man.")
-alert("He says to wake up because a tornado is coming!")
-alert("You glance behind him to see a cart with people inside of it")
-alert("On the side of the cart is a sign, it reads 'Free Rides to Williamsville due to tornado'")
-Answer = prompt("Do you follow the man to his house or take the cart? cart for Cart and Follow to follow the man to his house.");
+alert("You keep walking, and the glowing, more intense.")
+alert("Your legs start to burn and you throw the sword on the ground")
+alert("You notice your entire body starting to glow")
+alert("You keep glowing more and more intensly until you are just a fade of light")
+alert("GAME OVER.YOU LOSE!")
+System.exit(0);
 
 } else {
     alert("You ignore the sword and keep going")
@@ -37,11 +35,13 @@ if (Answer === "Yes") {
 alert("He helps you get back on your feet and get a job and a home.");
 alert("After helping them, they ask you to stay and help with the farm permanently");
 alert("GAME OVER. YOU WIN!");
+System.exit(0);
 } else {
 alert("You decline and get on the cart");
 alert("The trip is going well for the first 3 hours.");
 alert("You and your cart are swept up in the tornado");
 alert("GAME OVER. YOU LOSE!");
+System.exit(0);
 
 }
 }
@@ -78,9 +78,11 @@ alert("You open the cellar to find your rescuers.");
 alert("After helping them, they ask you to stay and help with the farm permanently");
 alert("You accept happily.");
 alert("GAME OVER. YOU WIN!");
+System.exit(0);
 } else {
 alert("You run towards the town on your way to get help.");
 alert("You slip and fall into a ravine");
 alert("GAME OVER. YOU LOSE!");
+System.exit(0);
 }
 }
