@@ -46,8 +46,8 @@ System.exit(0);
 }
 }
 
-} else
-    console.log("Right");
+} else if (Answer === "right") {
+   console.log("Right");
 alert("You run towards the people yelling.")
 alert("You fall, hurting your leg")
 alert("You grab there attention and before you know it, you are in a comfortable bed eating delicious eggs.")
@@ -85,4 +85,9 @@ alert("You slip and fall into a ravine");
 alert("GAME OVER. YOU LOSE!");
 System.exit(0);
 }
+}
+
+   
+} else {
+    alert("That command is unknown")
 }
