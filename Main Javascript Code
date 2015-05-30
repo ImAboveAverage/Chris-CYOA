@@ -68,8 +68,8 @@ if (Answer === "cellar") {
 alert("You make it to the cellar and see the people who rescued you.")
 alert("You see them blocking the door and getting supplies")
 Answer = prompt("Do you help them?")
-} else {
-    alert("You stay in bed")
+} else if (Answer === "stay") {
+ alert("You stay in bed")
 alert("You stay in bed, hoping it will pass")
 alert("You fall asleep")
 alert("You wake up on the floor, bruised.")
@@ -78,7 +78,7 @@ alert("You don't see your rescuers anywhere, or anyone at all!")
 alert("You notice the town")
 alert("You wonder if getting help from the town will be smart or looking for them here.")
 Answer = prompt("Do you search for them?")
-if (Answer === "Yes") {
+if (Answer === "yes") {
     alert("You start off towards the cellar.");
 alert("You look everywhere for hours");
 alert("You then hear yelling near the cellar.");
@@ -87,11 +87,15 @@ alert("After helping them, they ask you to stay and help with the farm permanent
 alert("You accept happily.");
 alert("GAME OVER. YOU WIN!");
 System.exit(0);
-} else {
+} else if (Answer === "no") {
 alert("You run towards the town on your way to get help.");
 alert("You slip and fall into a ravine");
 alert("GAME OVER. YOU LOSE!");
 System.exit(0);
+} else {
+alert("That command is unknown")
+System.exit(0);
+
 }
 }
 
